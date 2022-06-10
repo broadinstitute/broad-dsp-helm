@@ -52,6 +52,6 @@ dependencies:
   repository: https://broadinstitute.github.io/datarepo-helm/
   condition: de-elasticsearch.enabled
 - name: postgres
-  version: 0.26.0
+  version: 0.30.0
   repository: https://terra-helm.storage.googleapis.com/
   condition: postgres.enabled
