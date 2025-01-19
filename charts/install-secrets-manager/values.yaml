@@ -3,6 +3,7 @@ image:
   version: v1.0.2
 
 vaultLocation:      ## http://vault:8200
+vaultAppRolePath: approle
 vaultVersion: kv2
 
 serviceAccount:

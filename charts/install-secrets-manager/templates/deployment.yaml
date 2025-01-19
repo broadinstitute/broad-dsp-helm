@@ -27,6 +27,7 @@ spec:
         name: {{ .Chart.Name }}
         args:
         - -vault.engine={{ .Values.vaultVersion }}
+        - -vault.approle-path={{ .Values.vaultAppRolePath }}
         {{ if $hasCredentials -}}
         env:
         - name: VAULT_ROLE_ID
